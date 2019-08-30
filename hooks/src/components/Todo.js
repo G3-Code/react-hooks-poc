@@ -1,6 +1,10 @@
 import React from "react";
 
-function Todo() {
-  return <div>Todo List</div>;
+function Todo(props) {
+  return (
+    <div>
+      <div>{props.todo.text}</div>
+    </div>
+  );
 }
 export default Todo;
